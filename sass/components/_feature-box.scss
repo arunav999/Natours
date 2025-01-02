@@ -16,6 +16,7 @@
       $color-primary-light,
       $color-primary-light
     );
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
