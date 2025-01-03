@@ -176,7 +176,7 @@
       </section>
 
       <!-- ---------- TOURS SECTION ---------- -->
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Most popular tours</h2>
         </div>
@@ -207,7 +207,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$297</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -237,7 +237,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$497</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -267,7 +267,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$897</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -463,13 +463,14 @@
     </footer>
 
     <!-- ---------- POPUP SECTION ---------- -->
-    <div class="popup">
+    <div class="popup" id="popup">
       <div class="popup__content">
         <div class="popup__left">
           <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
           <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
         </div>
         <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
           <h2 class="heading-secondary u-margin-bottom-small">
             Start booking now
           </h2>
@@ -477,7 +478,18 @@
             Important &ndash; Please read these terms before booking
           </h3>
           <p class="popup__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores natus deserunt aliquam sunt maiores iure animi recusandae rerum architecto necessitatibus est dicta, ex alias perspiciatis ullam ad minima delectus facere consequatur nesciunt? Aspernatur qui dolore odit. Inventore porro debitis delectus dolore voluptatem quis deleniti saepe, repudiandae ab eius magni quidem dolores optio maiores iste quae quasi at. Odit iste laborum consequatur molestias molestiae beatae maiores, nobis eos voluptatibus provident quos totam distinctio inventore perspiciatis consequuntur, asperiores praesentium nulla debitis obcaecati ut possimus! Doloremque qui unde eveniet, nisi libero porro impedit, ex quia, assumenda laudantium nulla aperiam incidunt sed totam a.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            natus deserunt aliquam sunt maiores iure animi recusandae rerum
+            architecto necessitatibus est dicta, ex alias perspiciatis ullam ad
+            minima delectus facere consequatur nesciunt? Aspernatur qui dolore
+            odit. Inventore porro debitis delectus dolore voluptatem quis
+            deleniti saepe, repudiandae ab eius magni quidem dolores optio
+            maiores iste quae quasi at. Odit iste laborum consequatur molestias
+            molestiae beatae maiores, nobis eos voluptatibus provident quos
+            totam distinctio inventore perspiciatis consequuntur, asperiores
+            praesentium nulla debitis obcaecati ut possimus! Doloremque qui unde
+            eveniet, nisi libero porro impedit, ex quia, assumenda laudantium
+            nulla aperiam incidunt sed totam a.
           </p>
           <a href="#" class="btn btn--green">Book now</a>
         </div>
