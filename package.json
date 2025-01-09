@@ -15,9 +15,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass sass/main.scss css/style.css -w"
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "compile:sass": "sass sass/main.scss css/style.css"
   },
   "devDependencies": {
+    "concat": "^1.0.3",
+    "postcss-cli": "^11.0.0",
     "sass": "^1.83.0"
   }
 }
